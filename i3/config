@@ -293,4 +293,4 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Launch compton
 exec_always --no-startup-id picom -b --config ~/.config/picom.conf
 
-bindsym $mod+Shift+p exec  import -window root /home/logan/screenshot.jpg
+bindsym $mod+Shift+p exec  import -window root $HOME/screenshot.jpg
