@@ -88,14 +88,14 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # start dmenu (a program launcher)
-## bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -modi "window#run#ssh" -show drun
+bindsym $mod+d exec rofi -show drun
 
 # change focus
 bindsym $mod+$left focus left
@@ -293,4 +293,4 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Launch compton
 exec_always --no-startup-id picom -b --config ~/.config/picom.conf
 
-bindsym $mod+Shift+p exec  import -window root ~/screenshot.jpg
+bindsym $mod+Shift+p exec  import -window root /home/logan/screenshot.jpg
