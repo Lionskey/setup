@@ -1,2 +1,3 @@
 # i3-setup
-![darkseid_screenshot](https://user-images.githubusercontent.com/55106700/175834712-adf22b0e-dcdc-4490-b31d-4cdb492bf401.jpg)
+
+![screenshot](https://user-images.githubusercontent.com/55106700/175834928-820030e9-b6f9-4b80-ba30-48441ab0b8e2.jpg)
