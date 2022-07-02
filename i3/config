@@ -259,8 +259,8 @@ bindsym $mod+r mode "resize"
 # Personal config
 
 # It is called i3-gaps after all
-gaps inner 10
-gaps outer 15
+gaps inner 30
+gaps outer 30
 
 # It's rounded too lol
 border_radius 10
