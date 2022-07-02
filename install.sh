@@ -22,7 +22,6 @@ cp picom.conf /home/logan/.config/
 cp -r .fonts/ /home/logan/
 cp -r i3/ /home/logan/.config/ 
 cp -r kitty/ /home/logan/.config/ 
-cp -r neofetch/ /home/logan/.config/
 cp -r polybar/ /home/logan/.config/ 
 cp -r rofi/ /home/logan/.config/ 
 sudo systemctl enable sddm
