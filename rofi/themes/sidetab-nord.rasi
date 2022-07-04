@@ -28,6 +28,7 @@
 }
 
 #inputbar {
+	spacing: 10px;
     children: [prompt,entry];
     background-color: @background;
 }
