@@ -25,7 +25,7 @@ rofi_command="rofi -theme $dir/$theme"
 
 # Options
 shutdown="\uf011"
-reboot="\u27f3"
+reboot="\u2b6e"
 lock="\uf023"
 suspend="\uf9b1"
 logout="\uf842"
