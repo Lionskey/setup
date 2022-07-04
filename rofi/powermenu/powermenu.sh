@@ -24,11 +24,12 @@ uptime=$(uptime -p | sed -e 's/up //g')
 rofi_command="rofi -theme $dir/$theme"
 
 # Options
-shutdown="\uf011"
-reboot="\u2b6e"
-lock="\uf023"
-suspend="\uf9b1"
-logout="\uf842"
+# note: unicode codes not accepted. Only copy and pasted symbols
+shutdown="⏻"
+reboot="🗘"
+lock="🔒"
+suspend=""
+logout=""
 
 # Confirmation
 confirm_exit() {
