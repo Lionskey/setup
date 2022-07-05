@@ -27,3 +27,4 @@ cp -r polybar/ /home/logan/.config/
 cp -r rofi/ /home/logan/.config/
 cp -r neovim/ /home/logan/.config/
 sudo systemctl enable sddm
+ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules

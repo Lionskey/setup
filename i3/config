@@ -58,7 +58,7 @@ bindsym $mod+Ctrl+s exec xset led on
 bindsym $mod+Return exec kitty
 #bindsym $mod+Return exec 
 
-exec_always feh --bg-fill ~/Pictures/darkseid.jpg
+exec_always feh --bg-fill ~/Pictures/background.jpg
 # kill focused window
 bindsym $mod+q kill
 
@@ -278,10 +278,10 @@ for_window [class=".*"] border pixel 0
 hide_edge_borders both
 
 # Pywal
-#exec_always --no-startup-id wal -R
+# exec_always --no-startup-id wal -R
 
 # Wallpaper (unnecessary because of pywal)
-exec_always --no-startup-id feh --bg-fill $HOME/Pictures/backgroung.jpg
+# exec_always --no-startup-id feh --bg-fill $HOME/Pictures/backgroung.jpg
 
 # Launch xfce Power Manager (for screen/keyboard backlight controls)
 exec --no-startup-id xfce4-power-manager
