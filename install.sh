@@ -25,6 +25,6 @@ cp -r i3/ /home/logan/.config/
 cp -r kitty/ /home/logan/.config/ 
 cp -r polybar/ /home/logan/.config/ 
 cp -r rofi/ /home/logan/.config/
-cp -r neovim/ /home/logan/.config/
+cp -r nvim/ /home/logan/.config/
 sudo systemctl enable sddm
-ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules

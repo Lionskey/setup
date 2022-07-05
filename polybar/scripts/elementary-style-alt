@@ -40,7 +40,7 @@ LIGHT_GREEN="#7cb342"
 SDIR="$HOME/.config/polybar/scripts"
 
 # Launch Rofi
-MENU="$(rofi -no-lazy-grab -sep "|" -dmenu -i -p 'Style :' \
+MENU="$(rofi -no-lazy-grab -sep "|" -dmenu -i -p '   Style :' \
 -hide-scrollbar true \
 -bw 0 \
 -lines 10 \
