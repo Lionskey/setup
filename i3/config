@@ -1,5 +1,5 @@
 # i3 config file (v4)
-#
+##
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 #
 # This config file uses keycodes (bindsym) and was written for the QWERTY
@@ -56,7 +56,7 @@ bindsym $mod+Ctrl+s exec xset led on
 
 # start a terminal
 bindsym $mod+Return exec kitty
-#bindsym $mod+Return exec 
+#bindsym $mod+Return exec
 
 exec_always feh --bg-fill ~/Pictures/background.jpg
 # kill focused window
@@ -75,7 +75,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 ############################################################################################
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'" 
+# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Eject key
