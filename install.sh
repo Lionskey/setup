@@ -18,13 +18,13 @@ sudo git clone https://github.com/Lionskey/i3-setup
 sudo chown -R logan:logan ./i3-setup
 mkdir Pictures
 cd i3-setup
-cp darkseid.jpg /home/logan/Pictures
-cp picom.conf /home/logan/.config/
-cp -r .fonts/ /home/logan/
-cp -r i3/ /home/logan/.config/ 
-cp -r kitty/ /home/logan/.config/ 
-cp -r polybar/ /home/logan/.config/ 
-cp -r rofi/ /home/logan/.config/
-cp -r nvim/ /home/logan/.config/
+cp -rp darkseid.jpg /home/logan/Pictures
+cp -rp picom.conf /home/logan/.config/
+cp -rp .fonts/ /home/logan/
+cp -rp i3/ /home/logan/.config/ 
+cp -rp kitty/ /home/logan/.config/ 
+cp -rp polybar/ /home/logan/.config/ 
+cp -rp rofi/ /home/logan/.config/
+cp -rp nvim/ /home/logan/.config/
 sudo systemctl enable sddm
 sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
