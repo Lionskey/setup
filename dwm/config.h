@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-
+#include <X11/XF86keysym.h>
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int gappx     = 30;        /* gaps between windows */
@@ -70,8 +70,7 @@ static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY|ShiftMask,				XK_F12,	   spawn,		   SHCMD("brightnessctl set 10%+") },
-	{ MODKEY|ShiftMask,				XK_F11,	   spawn,		   SHCMD("brightnessctl set 10%-") },
+	{ MODKEY|ShiftMask,             XK_s,      spawn,          SHCMD("flameshot gui") },
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
@@ -108,8 +107,12 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_l,      quit,           {0} },
-	{ MODKEY,						XK_F11,    spawn,		   SHCMD("brightnessctl set 10%-") },
-	{ MODKEY,						XK_F12,    spawn,		   SHCMD("brightnessctl set 10%+") },
+	{ 0,							XF86XK_AudioLowerVolume,	   spawn,		   SHCMD("amixer set Master 10%-") },
+	{ 0,							XF86XK_AudioMute,			   spawn,		   SHCMD("amixer set Master toggle") },
+	{ 0,							XF86XK_AudioRaiseVolume,	   spawn,		   SHCMD("amixer set Master 10%+") },	
+	{ 0,							XF86XK_MonBrightnessUp,	       spawn,		   SHCMD("brightnessctl set 10%+") },
+	{ 0,							XF86XK_MonBrightnessDown,	   spawn,		   SHCMD("brightnessctl set 10%-") },
+
 };
 
 /* button definitions */
